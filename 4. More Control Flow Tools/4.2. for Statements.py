@@ -52,3 +52,10 @@ for num in range(10):
     if num == 5:
         break  # Exit loop when num is 5
     print(num)
+
+
+for num in range(5):
+    if num == 3:
+        continue  # Skip the iteration when num is 3
+    print(num)
+
