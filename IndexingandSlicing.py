@@ -1,2 +1,2 @@
 myString = "Yugandhara Saste";
-print(myString[4])
+print(myString[3])
