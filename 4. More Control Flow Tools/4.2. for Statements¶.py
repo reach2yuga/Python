@@ -1,2 +1,4 @@
-# Measure some strings:
-words = ['cat', 'window', 'defenestrate']
+fruits = ["apple", "banana", "cherry"]
+
+for fruit in fruits:
+    print(fruit)
