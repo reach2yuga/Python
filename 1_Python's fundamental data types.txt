@@ -1,0 +1,81 @@
+'''1. Integers (int)
+Whole numbers, either positive or negative, including zero.
+Example:
+python
+Copy code'''
+
+x = 3
+y = 300
+z = -200
+
+
+'''Floating Point Numbers (float)
+Numbers with a decimal point, used to represent real numbers.
+Example:
+python
+Copy code'''
+
+x = 2.3
+y = 4.6
+z = 100.0
+
+'''Strings (str)
+Ordered sequence of characters enclosed in single (') or double (") quotes.
+Example:
+python
+Copy code'''
+
+greeting = "hello"
+name = 'Sammy'
+number_str = "2000"
+japanese_str = "楽しい"  # Meaning 'fun' in Japanese
+
+
+'''4. Lists (list)
+Ordered, mutable sequence of objects (can contain different data types).
+Defined with square brackets [].
+Example:
+python
+Copy code'''
+
+my_list = [10, "hello", 200.3]
+
+
+'''5. Dictionaries (dict)
+Unordered collection of key-value pairs, where each key is unique.
+Defined using curly braces {}.
+Example:
+python
+Copy code'''
+
+my_dict = {"mykey": "value", "name": "Frankie"}
+
+
+'''6. Tuples (tup)
+Ordered, immutable sequence of objects (i.e., cannot be changed after creation).
+Defined using parentheses ().
+Example:
+python
+Copy code'''
+
+my_tuple = (10, "hello", 200.3)
+
+
+'''7. Sets (set)
+Unordered collection of unique objects, meaning no duplicates.
+Defined using curly braces {}.
+Example:
+python
+Copy code'''
+
+my_set = {"a", "b", "c"}
+
+
+'''8. Booleans (bool)
+Logical values indicating either True or False.
+Example:
+python
+Copy code'''
+
+is_adult = True
+is_student = False
