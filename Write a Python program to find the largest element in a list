@@ -1,0 +1,13 @@
+def find_largest_element(numbers):
+    if not numbers:
+        return None  # Return None if the list is empty
+    largest = numbers[0]  # Assume the first element is the largest
+    for num in numbers:
+        if num > largest:
+            largest = num  # Update largest if a larger number is found
+    return largest
+
+# Example usage
+numbers = [3, 25, 7, 2, 8, -1]
+largest_element = find_largest_element(numbers)
+print("The largest element in the list is:", largest_element)

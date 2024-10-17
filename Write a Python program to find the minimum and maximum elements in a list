@@ -1,0 +1,19 @@
+def find_min_max(numbers):
+    if not numbers:
+        return None, None  # Return None for both if the list is empty
+    
+    min_element = max_element = numbers[0]  # Initialize both min and max with the first element
+    
+    for num in numbers:
+        if num < min_element:
+            min_element = num  # Update min_element if a smaller number is found
+        if num > max_element:
+            max_element = num  # Update max_element if a larger number is found
+    
+    return min_element, max_element
+
+# Example usage
+numbers = [3, 5, 7, 2, 8, -1]
+min_element, max_element = find_min_max(numbers)
+print("The minimum element in the list is:", min_element)
+print("The maximum element in the list is:", max_element)
