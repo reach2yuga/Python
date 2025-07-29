@@ -1,0 +1,4 @@
+#6. How can you initialize a 5x5 NumPy array with only zeros?
+import numpy as np
+a = np.zeros((5,5))
+print(a)
